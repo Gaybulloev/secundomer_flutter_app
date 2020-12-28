@@ -15,6 +15,7 @@ class _SecundomerPageState extends State<SecundomerPage>{
   bool startispressed = true;
   bool stopispressed = true;
   bool resetispressed = true;
+
   String stoptimedispley = '00:00:00';
   var swatch = Stopwatch();
   final duration = const Duration(seconds: 1);
